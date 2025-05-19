@@ -1,3 +1,58 @@
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
 #main{
-    background-color: bisque;
+    
+    overflow: hidden;
 }
+
+#form{
+
+    height: 200px;
+    width: 100px;
+    background-color: rebeccapurple;
+
+    align-items: center;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    margin: 100px;
+    left: 40%;
+    width: 300px;
+    top: 30%;
+    z-index: 3;
+    
+}
+
+#form-2{
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+
+
+#form-1{
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+#main img{
+
+    background-size: cover;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+}
+#images img{
+    
+    border-radius: 20px;
+    left: 100px;
+    top: 100px;
+    position: relative;
+    height: 50vh;
+    width: 40vb;
+    z-index: 2;
+}
+
