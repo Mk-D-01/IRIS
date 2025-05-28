@@ -1,0 +1,29 @@
+*{
+    margin: 0;padding: 0;color: aqua;
+}
+
+:root {
+  --background: #121212;
+  --text-color: #e0e0e0;
+  --accent: #00ADB5;
+  --highlight: #FF5722;
+}
+.limelight-regular {  
+  font-family: "Limelight", sans-serif;
+  font-weight: 10;
+  font-style: normal;
+}
+
+#pre{
+    background-color:#121212 ;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;align-items: center;justify-content: center;
+
+}
+
+#pre h1{font-size: 100px;padding-bottom: 50px;font-weight: 10px;color:#E0E0E0;}
+#pre h2{
+color: crimson;
+}

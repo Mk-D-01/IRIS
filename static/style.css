@@ -3,56 +3,31 @@
       padding: 0;
       box-sizing: border-box;
     }
-#main{
-    
-    overflow: hidden;
+
+.libre-caslon-display-regular {
+  font-family: "Libre Caslon Display", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#page1{
+
+    height: 100vh;width: 100vw;background-color:black;
+    display: flex;
+    justify-content: center;align-items: center;
+    flex-direction: column;
+}
+
+#heading{
+    height: 300px;width: 00px;
+    background-color: beige;
+    position: absolute;
+    color: lightskyblue;
+    font-size: 100px    ;
 }
 
 #form{
-
-    height: 200px;
-    width: 100px;
-    background-color: rebeccapurple;
-
-    align-items: center;
-    position: fixed;
     display: flex;
     flex-direction: column;
-    margin: 100px;
-    left: 40%;
-    width: 300px;
-    top: 30%;
-    z-index: 3;
-    
+    row-gap: 10px;   
 }
-
-#form-2{
-    margin-top: 10px;
-    margin-bottom: 5px;
-}
-
-
-
-#form-1{
-    margin-top: 1px;
-    margin-bottom: 1px;
-}
-#main img{
-
-    background-size: cover;
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    z-index: 1;
-}
-#images img{
-    
-    border-radius: 20px;
-    left: 100px;
-    top: 100px;
-    position: relative;
-    height: 50vh;
-    width: 40vb;
-    z-index: 2;
-}
-
