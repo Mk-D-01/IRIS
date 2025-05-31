@@ -3,17 +3,38 @@
 <head>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Limelight&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Display&display=swap" rel="stylesheet">
+
+
+
     <link rel="stylesheet" href="/static/pre.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
 <body>
-    <div id="pre" class="limelight-regular">
-        <h1>Prediction</h1>
-        <h2>{{pre}}</h2>
-    </div>
+    
+    <div id="page1">
+
+        <div id="boxes">
+            <div id="circle1"></div>
+            <div id="box3"></div>
+            <div id="box1"></div>
+            <div id="box2"></div>
+            <div id="circle2"></div>
+            
+        </div>
+
+        <div id="prediction" class="libre-caslon-display-regular">
+            <h1>Prediction</h1>
+        </div>
+
+        <div id="result">
+            <h2>{{pre}}</h2> 
+        </div>
+        
+     </div>
+     
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js" integrity="sha512-NcZdtrT77bJr4STcmsGAESr06BYGE8woZdSdEgqnpyqac7sugNO+Tr4bGwGF3MsnEkGKhU2KL2xh6Ec+BqsaHA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="pre.js"></script>
 </body>

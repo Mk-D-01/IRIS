@@ -1,21 +1,16 @@
 *{
-    margin: 0;padding: 0;color: aqua;
+    margin: 0;padding: 0;
 }
 
-:root {
-  --background: #121212;
-  --text-color: #e0e0e0;
-  --accent: #00ADB5;
-  --highlight: #FF5722;
-}
-.limelight-regular {  
-  font-family: "Limelight", sans-serif;
-  font-weight: 10;
+
+.libre-caslon-display-regular {
+  font-family: "Libre Caslon Display", serif;
+  font-weight: 100;
   font-style: normal;
 }
 
-#pre{
-    background-color:#121212 ;
+#page1{
+    background-color:#1C1C1C ;
     display: flex;
     flex-direction: column;
     height: 100vh;
@@ -23,7 +18,31 @@
 
 }
 
-#pre h1{font-size: 100px;padding-bottom: 50px;font-weight: 10px;color:#E0E0E0;}
-#pre h2{
-color: crimson;
+#prediction{
+  color:aliceblue;padding: 3px 20px; font-size: 70px;background-color:#2a3439;border-radius: 10px;
+   box-shadow: 0 0 10px #4169E1; box-shadow: 2px 2px 10px #4169E1;
+}
+
+
+#result{
+  margin-top: 10px;font-size: 40px;text-transform: capitalize;
+  text-align: center;text-justify:newspaper;color: cornflowerblue;
+}
+
+#boxes{
+  display: flex;justify-content: center;align-items: center;gap: 40px;margin-bottom: 50px;
+ 
+}
+#box1{
+  height: 70px;width: 65px;background-color: aliceblue;
+  transform: rotate(45deg);
+}
+#box2 , #box3{
+  height: 30px;width: 30px;background-color: aliceblue;
+  transform: rotate(45deg);
+}
+
+#circle1 , #circle2{
+  height: 30px;width: 30px;background-color:cadetblue;
+  border-radius: 50%;gap: 100px;
 }

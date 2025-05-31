@@ -1,33 +1,67 @@
 * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-.libre-caslon-display-regular {
+body {
   font-family: "Libre Caslon Display", serif;
-  font-weight: 400;
-  font-style: normal;
+  background-color: black;
+  color: white;
 }
 
-#page1{
-
-    height: 100vh;width: 100vw;background-color:black;
-    display: flex;
-    justify-content: center;align-items: center;
-    flex-direction: column;
+#page1 {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
 }
 
-#heading{
-    height: 300px;width: 00px;
-    background-color: beige;
-    position: absolute;
-    color: lightskyblue;
-    font-size: 100px    ;
+#heading {
+  color: lightskyblue;
+  font-size: 4rem;
+  text-align: center;
+  position: relative;
 }
 
-#form{
-    display: flex;
-    flex-direction: column;
-    row-gap: 10px;   
+#form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  background-color: #1e1e1e;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(135, 206, 250, 0.5);
+}
+
+#form input {
+  padding: 10px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  background-color: #2c2c2c;
+  color: white;
+}
+
+#form input::placeholder {
+  color: #aaa; 
+}
+
+#form button {
+  padding: 10px;
+  background-color: lightskyblue;
+  border: none;
+  border-radius: 5px;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#form button:hover {
+  background-color: deepskyblue;
 }
