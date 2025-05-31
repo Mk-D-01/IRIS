@@ -1,7 +1,0 @@
-<form method="POST" action="/">
-        <input type="number" step="any" name="p_h" placeholder="Enter Petal Height">
-        <input type="number" step="any" name="p_w" placeholder="Enter Petal Width">
-        <input type="number" step="any" name="s_h" placeholder="Enter Sepal Height">
-        <input type="number" step="any" name="s_w" placeholder="Enter Sepal Width">
-        <button type="submit" value = 'submit'>PREDICT</button>
-    </form>
